@@ -1,0 +1,137 @@
+<html style="height:100%">
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=The+Nautigal:wght@700&display=swap" rel="stylesheet">
+<script src = "https://kit.fontawesome.com/e48d166edc.js" ></script>
+<link href ="https://fonts.googleapis.com/css?family=Kanit:100,200,300,400,500,600,700,800,900"rel="stylesheet">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel = "stylesheet" href="css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="css/light-box.css">
+<link rel = "stylesheet" href="css/style.css">
+
+        <title>
+            Our India
+        </title>
+        <link rel="icon" type="image/x-icon" href="sahithi.ico">
+    </head>
+
+    <body>
+
+        <nav>
+            <div class="logo"> <a href="https://en.wikipedia.org/wiki/India">Our<em>India</em></a></div>
+        </nav>
+        
+    <div class="icon">
+        <img src="play-solid.svg" id="iconn">
+    </div>
+   
+    <audio id="NationalAnthem">
+        <source src = "Nationalanthem.mp3" type="audio/mp3">
+    </audio>
+    <script>
+        var mySong = document.getElementById("NationalAnthem");
+        var icon = document.getElementById("iconn");
+
+        icon.onclick = function(){
+            if(mySong.paused){
+                mySong.play();
+                icon.src="pause-solid.svg";
+        
+            }else{
+                mySong.pause();
+                icon.src="play-solid.svg";
+            }
+        }
+    </script>
+    <div class="bg-image"></div>
+
+    
+    <div class="bg-text">
+        <h1>Historical places <br>of India</h1>
+    </div>
+   <br>
+    <div class = "photo-gallery">
+        <div class ="image 1">
+            <a href="https://en.wikipedia.org/wiki/Taj_Mahal">
+            <img src ="TajMahal.jpg"></a>
+            <div class = "caption 1">
+                <p>TajMahal</p>
+            </div>
+        </div>
+        
+        <div class ="image 2">
+            <a href="https://en.wikipedia.org/wiki/Hawa_Mahal">
+            <img src ="HawaMahal.webp"></a>
+            <div class = "caption 2">
+                <p>HawaMahal</p>
+            </div>
+        </div>
+
+        <div class ="image 3">
+            <a href ="https://en.wikipedia.org/wiki/Lotus_Temple">
+            <img src ="LotusTemple.jpg"></a>
+            <div class = "caption 3">
+                <p>Lotus Temple</p>
+            </div>
+        </div>
+
+
+        <div class ="image 4">
+            <a href="https://en.wikipedia.org/wiki/Lotus_Temple">
+            <img src ="QutubMinar.jpeg"></a>
+            <div class = "caption 4">
+                <p>Qutib Minar</p>
+            </div>
+        </div>
+
+        <div class ="image 5">
+            <a href="https://en.wikipedia.org/wiki/Charminar">
+            <img src ="Charminar.jpg"></a>
+            <div class = "caption 5">
+                <p>Charminar</p>
+            </div>
+        </div>
+
+        <div class ="image 6">
+            <a href="https://en.wikipedia.org/wiki/Hampi">
+            <img src ="hampi.jpg"></a>
+            <div class = "caption 6">
+                <p>Hampi</p>
+            </div>
+        </div>
+
+        <div class ="image 7">
+            <a href="https://en.wikipedia.org/wiki/Khajuraho">
+            <img src ="Khajuraho.jpg"></a>
+            <div class = "caption 7">
+                <p>Khajuraho</p>
+            </div>
+        </div>
+
+        <div class ="image 8">
+            <a href="https://en.wikipedia.org/wiki/Konark_Sun_Temple">
+            <img src ="konarksuntemple.jpg"></a>
+            <div class = "caption 8">
+                <p>konarksuntemple</p>
+            </div>
+        </div>
+
+        <div class ="image 9">
+            <a href="https://en.wikipedia.org/wiki/Mysore_Palace">
+            <img src ="MysorePalace.jpg"></a>
+            <div class = "caption 9">
+                <p>MysorePalace</p>
+            </div>
+        </div>
+
+    </div>
+     
+    <h2>
+        Thankyou<br>
+        By-<em><a href = "www.linkedin.com/in/sahithi-gunturu-3a624b1b7/">Sahithi Gunturu</a></em>
+    </h2>
+
+    </body>
+</html>
