@@ -53,7 +53,7 @@ nav .logo em{
     padding: 20px;
     
   }
-.photo-gallery{
+.flex-container{
     width:100%;
     margin:auto;
     display: grid;
@@ -122,4 +122,28 @@ h2 em{
 #iconn{
    width:80px;
    cursor:pointer; 
+}
+.overlay{
+    position:absolute;
+    top:0;
+    left:0;
+    right: 0;
+    bottom : 0;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+    background: black;
+    cursor: pointer;
+}
+.content{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform : translate(-50%,-50%);
+    color: white;
+    font-family:Verdana;
+    text-align:center;
+    font-size: 12px;
+}
+.image:hover .overlay {
+      opacity:0.8;
 }
